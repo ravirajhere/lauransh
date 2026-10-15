@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bandwar - Famous Personalities</title>
+  <meta name="description" content="Archive of notable people from Bandwar village" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- HERO -->
+  <section class="personalities-hero">
+    <span class="hero-icon">⭐</span>
+    <h1>Pride of Bandwar</h1>
+    <p>People rooted in the soil of our village who made Bandwar proud with their work, values and vision.</p>
+  </section>
+
+  <!-- CONTAINER -->
+  <div class="personalities-container">
+
+    <!-- FILTER TABS -->
+    <div class="filter-tabs" role="tablist">
+      <button class="active" data-filter="all" role="tab">All</button>
+      <button data-filter="youth" role="tab">Youth</button>
+      <button data-filter="education" role="tab">Education</button>
+      <button data-filter="social" role="tab">Social Service</button>
+    </div>
+
+    <!-- FEATURED - Showing the one person here -->
+    <div class="person-featured">
+      <img class="featured-photo" src="./images/famous-person.webp" alt="Famous Personality of Bandwar">
+      <div class="featured-info">
+        <div class="label">Featured Personality</div>
+        <h2>Lauransh Khelawan Sahni</h2>
+        <div class="role">Youth Inspiration • Bandwar</div>
+        <p>
+          An emerging name among the youth of Bandwar. His deep connection to the village 
+          and his mindset to bring change in society with new ideas makes him stand out.
+          This archive is to honor his journey.
+        </p>
+      </div>
+    </div>
+
+    <!-- GRID -->
+    <div class="personalities-grid">
+
+      <!-- CARD 1 - Currently only one -->
+      <div class="person-card" data-category="youth all">
+        <div class="photo-wrap">
+          <img src="./images/famous-person.webp" alt="Adarsh Kumar - Bandwar" loading="lazy">
+          <span class="era-tag">2026 • Present</span>
+        </div>
+        <div class="info">
+          <h3>Adarsh Kumar</h3>
+          <div class="role">Youth Inspiration</div>
+          <p class="bio">A young face of Bandwar village, working for education and social awareness.</p>
+          <div class="card-footer">
+            <span>Bandwar, Bihar</span>
+            <a href="#" class="read-more">Read story</a>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
